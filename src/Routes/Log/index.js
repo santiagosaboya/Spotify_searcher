@@ -4,9 +4,9 @@ import styles from './style.css'
 
 
 
-const REACT_APP_SPOTIFY_CLIENT_ID = '488e8046b07f4829bd36cfd5e7a4f9ff';
+const REACT_APP_SPOTIFY_CLIENT_ID = '';
 const REACT_APP_SPOTIFY_CALLBACK_HOST = 'http://localhost:3001/home';
-const REACT_APP_SPOTIFY_CLIENT_SECRET = 'ab8f27cf7c68496e8b091aed8e31d443';
+const REACT_APP_SPOTIFY_CLIENT_SECRET = '';
 
 const spotifyUrl = `https://accounts.spotify.com/authorize?client_id=${REACT_APP_SPOTIFY_CLIENT_ID}&response_type=code&redirect_uri=${REACT_APP_SPOTIFY_CALLBACK_HOST}&scope=user-read-private`;
 
