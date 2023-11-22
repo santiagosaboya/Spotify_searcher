@@ -13,8 +13,8 @@ function Pagina () {
     const[busqueda, setBusqueda] = useState('')
     const[playlist, setPlaylist] = useState([])
     const[topCanciones, setTopCanciones] = useState([])
-    const id_cliente = '488e8046b07f4829bd36cfd5e7a4f9ff';
-    const cliente_secreto = 'ab8f27cf7c68496e8b091aed8e31d443';
+    const id_cliente = '';
+    const cliente_secreto = '';
     const redirect_uri = 'http://localhost:3001/home'
     const location = useLocation();
 
